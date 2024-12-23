@@ -1,0 +1,1 @@
+A simple and interactive music website built with HTML, CSS, and JavaScript, featuring a limited selection of preloaded songs. The site includes a responsive design and a functional media player for song playback. Users can enjoy a clean, modern interface with smooth interactions.
