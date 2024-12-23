@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Music website</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="styls.css">
+</head>
+
+<body>
+
+
+    <nav>
+        <ul class="p-1 mt-1">
+            <li class="LGO"><img src="images/logo1.jpg" alt=""><b class="mb-0 p-1">ListenMe!</b></li>
+
+            <div class="Mid">
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="srch" type="submit">Search</button>
+                    <!-- <button class="btn btn-outline-success" type="submit">Search</button> -->
+                    <div class="Right mb-0  d-flex">
+                        <a href="Login.html"> <span>SignUp</span></a>
+                        <a href="Login.html"><span>Login</span></a>
+                    </div>
+                </form>
+            </div>
+        </ul>
+    </nav>
+    <nav class="navbar navbar-expand-lg " id="jenil"> 
+        <div class="container-md" id="Menubar">
+            <a class="navbar-brand" href="#">All</a>
+            <a class="navbar-brand" href="#">Trending Song</a>
+            <a class="navbar-brand" href="#">podcast</a>
+            <a class="navbar-brand" href="#">Top Song</a>
+            <a class="navbar-brand" href="#">Like</a>
+        </div>
+    </nav>
+    <!-- <div class="Music"> -->
+    
+    <header>
+        <div class="menuside">
+            <h1> singer </h1>
+            <li><img src="images/arijit.jpg" alt="">
+                <h4>Arijit sigh</h4>
+            </li>
+            <li><img src="images/aditya2.jpeg" alt="">
+                <h4>Aditya gadhavi</h4>
+            </li>
+            <li>
+                <img src="images/justin.jpg" alt="">
+                <h4>Justin biber</h4>
+            </li>
+        </div>
+        <div class="contener">
+            <div class="Songname">
+            </div>
+            <div class="songline">
+
+
+                <div class="Songitem d-flex ">
+                    <img src="images/SongImg.jpg" alt="">
+                    <span class="songname m-2">Let ME Love You</span>
+                    <span class="songlist"><span class=" songspace ms-5 m-2">3:24 <i id="0"
+                                class=" songplay fa-regular  fa-2xl fa-circle-play"
+                                style="color:yellow;"></i></span></span>
+                </div>
+                <div class="Songitem">
+                    <img src="images/SongImg.jpg" alt="">
+                    <span class="songname m-2">Let ME Love You</span>
+                    <span class="songlist"><span class=" ms-5 m-2 ">3:24 <i id="1"
+                                class=" songplay fa-regular  fa-2xl fa-circle-play"
+                                style="color: yellow;"></i></span></span>
+                </div>
+                <div class="Songitem">
+                    <img src="images/SongImg.jpg" alt="">
+                    <span class="songname m-2">Let ME Love You</span>
+                    <span class="songlist"><span class="ms-5 m-2">3:24 <i id="2"
+                                class=" songplay fa-regular  fa-2xl fa-circle-play"
+                                style="color: yellow;"></i></span></span>
+                </div>
+                <div class="Songitem">
+                    <img src="images/SongImg.jpg" alt="">
+                    <span class="songname m-2">Let ME Love You</span>
+                    <span class="songlist"><span class="ms-5 m-2">3:24 <i id="3"
+                                class=" songplay fa-regular  fa-2xl fa-circle-play"
+                                style="color: yellow;"></i></span></span>
+                </div>
+                <div class="Songitem">
+                    <img src="images/SongImg.jpg" alt="">
+                    <span class="songname m-2">Let ME Love You</span>
+                    <span class="songlist"><span class="ms-5 m-2">3:24 <i id="4"
+                                class=" songplay fa-regular  fa-2xl fa-circle-play"
+                                style="color: yellow;"></i></span></span>
+                </div>
+                <div class="Songitem">
+                    <img src="images/SongImg.jpg" alt="">
+                    <span class="songname m-2">Let ME Love You</span>
+                    <span class="songlist"><span class="ms-5 m-2">3:24 <i id="5"
+                                class=" songplay fa-regular  fa-2xl fa-circle-play"
+                                style="color: yellow;"></i></span></span>
+                </div>
+                <div class="Songitem">
+                    <img src="images/SongImg.jpg" alt="">
+                    <span class="songname m-2">Let ME Love You</span>
+                    <span class="songlist"><span class="ms-5 m-2">3:24 <i id="6"
+                                class=" songplay fa-regular  fa-2xl fa-circle-play"
+                                style="color:yellow;"></i></span></span>
+                </div>
+            </div>
+            <div class="SongBanner"></div>
+        </div>
+    </header>
+
+    <div class="bottom">
+
+
+        <div class="songtime">
+            <span id="curstart">0:00</span>
+            <input type="range" name="range" id="Progressbar" min="0" value="0" max="100">
+            <span id="curend">0:00</span>
+        </div>
+        <div class="d-flex p-2 mb-4 batan">
+            <i class="fa-solid fa-2x fa-backward-step p-0 mb-2 " id="previous" style="color: #ff0000;"></i>
+            <i class="fa-solid fa-2x fa-circle-play mb-2" id="masterplay" style="color: #ff0000;"></i>
+            <i class="fa-solid fa-2x fa-forward-step p-0 mb-2 ms-3 " id="next" style="color: #ff0000;"></i>
+            <!-- <i class="fa-solid fa-2x fa-circle-pause mb-2" style="color: #ff0000;"></i> -->
+
+        </div>
+        <div class="songinfo  m-1">
+            <img src="images/threee.jpeg" alt="" id="bannerimage">
+            <h6 id="titen">thousend-year</h6>
+           
+        </div>
+        <!-- <i class="fa-regular fa-3x fa-circle-stop"></i>
+    <i class="fa-regular fa-3x fa-circle-play"></i> -->
+        <!-- <script src="https://fontawesome.com/icons/circle-stop?f=classic&s=regular"></script> -->
+        <!-- <img src="images/play11.jpg" id="play" alt=""> -->
+    </div>
+    <!-- </div> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+ 
+
+</body>
+
+</html>
